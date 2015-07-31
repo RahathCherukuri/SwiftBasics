@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let constantVariable = 10;
+        var changingVariable = 20;
+        var boolValue : Bool = false;
+        var WelcomeMessage : String = "Hello World";
+        println("boolValue: \(boolValue)");
+        println("WelcomeMessage: \(WelcomeMessage)");
+        println("changingVariable: \(changingVariable)");
+        println("constantVariable: \(constantVariable)");
     }
 
     override func didReceiveMemoryWarning() {
